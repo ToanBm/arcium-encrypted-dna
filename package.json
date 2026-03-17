@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Privacy-preserving genomic similarity via Hamming distance on Arcium MPC",
   "scripts": {
+    "build": "cd frontend && npm run build",
     "test": "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
   },
   "dependencies": {
