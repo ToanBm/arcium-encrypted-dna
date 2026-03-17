@@ -4,8 +4,8 @@ import { useMemo } from "react";
 import { useAnchorWallet, useConnection } from "@solana/wallet-adapter-react";
 import * as anchor from "@coral-xyz/anchor";
 import { Keypair, Transaction, VersionedTransaction } from "@solana/web3.js";
-import type { EncryptedDna } from "../../../target/types/encrypted_dna";
-import IDL from "../../../target/idl/encrypted_dna.json";
+import type { EncryptedDna } from "./encrypted_dna";
+import IDL from "./encrypted_dna.json";
 
 // Minimal wallet interface for read-only use (no signing needed)
 const dummyWallet = {

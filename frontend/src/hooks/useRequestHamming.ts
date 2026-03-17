@@ -16,7 +16,7 @@ import {
 import { useAnchorProgram } from "@/lib/program";
 import { getDnaProfilePda, compDefOffsetNum } from "@/lib/pda";
 import { PROGRAM_ID, CLUSTER_OFFSET } from "@/lib/constants";
-import type { EncryptedDna } from "../../../target/types/encrypted_dna";
+import type { EncryptedDna } from "../lib/encrypted_dna";
 import type * as anchor from "@coral-xyz/anchor";
 
 const TIMEOUT_MS = 300_000;
